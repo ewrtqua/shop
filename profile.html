@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=PT+Sans+Narrow&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="productsbody">
+    <header>
+        <ul>
+            <li>
+                <a href="welcome.html">WELCOME</a>
+            </li>
+            <li>
+                <a href="products.html">PRODUCTS</a>
+            </li>
+        </ul>
+        <div class="logo">
+            <a href="#">
+                <h1>PEACE.</h1>
+            </a>
+        </div>
+        <ul>
+            <li>
+                <a href="contacts.html">CONTACTS</a>
+            </li>
+            <li>
+                <a href="profile.html">PROFILE</a>
+            </li>
+        </ul>
+    </header>
+    <div class="profile">
+
+        <div class="top">
+            <h1>YOUR PROFILE.</h1>
+
+            <div class="app">
+                <form action="#" method="post" v-on:submit.prevent="login">
+                    <p>YOUR NAME</p>
+                    <label for="">
+                        <input name="name" type="yourname">
+                    </label>
+                    <h2>account data.</h2>
+                    <p>PHONE</p>
+                    <label for="">
+                        <input name="phone" type="yourphone">
+                    </label>
+                    <p>BIRTH DATE</p>
+                    <label for="date">
+                        <input name="date" type="date" placeholder="BD">
+                    </label>
+                    <p>GENDER</p>
+                    <select name="select" type="select">
+                        <option selected value="s1">NOT SPECIFIED</option>
+                        <option value="s2">FEMALE</option>
+                        <option value="s3">MALE</option>
+                    </select>
+                    <p>COUNTRY</p>
+                    <select name="select" type="select">
+                        <option selected value="s1">NOT SPECIFIED</option>
+                        <option value="s3">AUSTRALIA</option>
+                        <option value="s4">AUSRTIA</option>
+                        <option value="s6">BRAZIL</option>
+                        <option value="s8">CHINA</option>
+                        <option value="s9">FRANCE</option>
+                        <option value="s10">GERMANY</option>
+                        <option value="s11">ITALY</option>
+                        <option value="s12">JAPAN</option>
+                        <option value="s13">MEXICO</option>
+                        <option value="s14">RUSSIA</option>
+                        <option value="s15">SOUTH KOREA</option>
+                        <option value="s16">USA</option>
+                    </select>
+            </div>
+            <a href="#" class="button">SAVE</a>
+        </div>
+        <div class="bottom">
+           <h2>payment.</h2>
+           <p>link your card for successful purchases.</p>
+           <div class="app">
+            <form action="#" method="post" v-on:submit.prevent="login">
+                <p>YOUR CARD</p>
+                <label for="">
+                   <input name="number" type="yourcard">
+                </label>
+               <label for="">
+                   <p>VALID UNTIL</p>
+                <section class="date">
+                    <input name="number" type="datecard" placeholder="MM">
+                    <span>/</span>
+                    <input name="number" type="datecard" placeholder="ГГ">
+                </section>
+               </label>
+               <label for="">
+                   <p>CVV/CVC*</p>
+                   <input name="number" type="cvvcvc" placeholder="000">
+                   <p>*three digits on the back of the card</p>
+               </label>
+              </div>
+              
+              <a href="#" class="button">LINK</a>
+              <p>by clicking on the "LINK" button, you agree to the terms of linking the card</p>
+             
+        </div>
+
+        <img src="https://n.sinaimg.cn/sinakd20220302s/30/w1080h1350/20220302/a25a-24e1cb645fa220a9a2a9737488d47704.jpg"
+            alt="#">
+    </div>
+
+
+</body>
+
+</html>

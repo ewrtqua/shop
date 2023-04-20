@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <button class="registratsia">
+        Регистрация
+    </button>
+    <button class="voyti">
+        Вход
+    </button>
+    <div id="app">
+        <form action="#" method="post" v-on:submit.prevent="login">
+            <label for="">
+                <div class="letter">
+                    <img src="img/letter.svg">
+                </div>
+                <input v-model="email" type="email" name="email" class="input" placeholder="email">
+            </label>
+            <label for="">
+                <div class="lock">
+                    <img src="img/lock.svg">
+                </div>
+            <input v-model="password" type="password" name="password" class="input" placeholder="password">
+        </label>
+        </form>
+    </div>
+    <button class="vhod">
+        Войти
+    </button>
+   <div class="passwords" >
+<button class="password"></button>
+    <p class="remember"> запомнить пароль</p>
+</div>
+<a href="забыли пароль?">забыли пароль?</a>
+
+<p>Войти через</p>
+<div class="apps">
+    <button type="button">
+        <img src="img/insta.svg"
+       width="40px" height="40px">
+    </button>
+    <button type="button">
+        <img src="img/vk.svg"
+        width="40px" height="40px">
+    </button>
+    <button type="button">
+        <img src="img/twitter.svg"
+        width="40px" height="40px">
+    </button>
+    <button type="button">
+        <img src="img/facebook.svg"
+        width="40px" height="40px">
+    </button>
+</div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <div class="square"></div> -->
+</body>
+
+</html>

@@ -1,0 +1,443 @@
+input[type=email]{
+    background: #653C51;
+    border: 1px solid #452133;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+input[type=password]{
+    background: #653C51;
+    border: 1px solid #452133;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    
+}
+body{
+    background: #653C51;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+}
+h1{
+    color: white;
+   
+}
+.registratsia{
+    border: 1px solid #AC7D88;
+    background: #653C51;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.voyti{
+    border: 1px solid #AC7D88;
+    background: #AC7D88;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+
+
+form>label img{
+    height: 40px;
+    width: 30px;
+    margin-top: 10px;
+}  
+
+.vhod{
+    border: 1px solid #AC7D88;
+    background: #AC7D88;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #858585;
+    opacity: 1; /* Firefox */
+
+  }
+  .password{
+    background: #DEB6AB;  
+    width: 20px;
+    height: 20px;
+    border: 0px solid #DEB6AB;
+    border-radius: 5px;
+  }
+  .remember{
+    color: #452133;
+    
+  }
+  .passwords {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+  }
+  a:hover {
+      color: #737373;
+  }
+  a{
+      text-decoration: none;
+      color: #452133;
+      
+  }
+  p{
+      color: white;
+  }
+  
+  .apps button{
+    background: #ffffff00;
+    border: none;
+}
+  
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #000;
+    width: 100%;
+    height: 80px;
+}
+.logo img{
+    height: 50px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header li a, header li {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.indexbody{
+    background: #000;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.model img{
+    height: 91vh;
+}
+.textmenu{
+   line-height: 110%;
+    
+}
+.model{
+    align-self: flex-end;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+a.button{
+    color: white;
+    border-radius: 2px;
+    background: #000;
+    border-color: white;
+    text-decoration: none;
+    border: 2px solid;
+    display: inline-block;
+    font-weight: 700;
+    padding: 1em 3em;
+    transition: 0.2s;
+}
+a.button:hover{
+background: #737373;
+}
+a.contacts{
+    color: white;
+}
+
+.productsbody{
+    background: #000;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular-card img{
+    height: 480px;
+
+}
+.one img{
+    height: 600px;
+}
+.two img{
+    height: 600px;
+}
+.pic1{
+    display: flex;
+    gap: 10px;
+}
+.popular-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+   
+}
+h2{
+    color: white;
+}
+h4{
+    color: white;
+}
+/* .shirt img{
+    height: 480px;
+    
+}
+.shirt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    margin-left: 152px;
+} */
+.popular,.mostpopular,.popular3{
+    display: flex;
+    width: 95%;
+    max-width: 2000px;
+    justify-content: space-between;
+}
+.mostpopular{
+    margin-top: 21px;
+}
+.popular3{
+    margin-top: 21px;
+}
+.textcontact h1{
+    font-size: 70px;
+    
+}
+/* .skirt img{
+    height: 480px;
+
+}
+.skirt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    margin-left: 152px;
+} */
+/* .shoes img{
+    height: 480px;
+}
+.shoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0px;
+    margin-left: 152px; 
+} */
+.category-carts img{
+    height: 200px;
+    box-shadow: white 14px 12px; 
+}
+.category-carts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+}
+
+.category{
+    
+    display: flex;
+    width: 95%;
+    max-width: 2000px;
+    justify-content: space-between;
+}
+
+h3{
+    color: white;
+    line-height: 0px;
+}
+.more p{
+    color: #b5b5b5;
+    line-height: 2px;
+}
+
+h5{
+    color: #b5b5b5;
+}
+.mm{
+    display: flex;
+
+}
+.mm a{
+    margin-left: 40px;
+}
+input[type=emaile]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+}
+input[type=name]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+   
+}
+input[type=message]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 88px;
+}
+form>label{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.message a{
+    margin-top: 40px;
+}
+.contactsbody p{
+    line-height: 25%;
+    color: #858585;
+}
+.contactsus{
+    display: flex;
+    flex-direction: row;
+    gap: 150px
+}
+.profile{
+    align-self: flex-end;
+    display: flex;
+    gap: 140px;
+}
+    
+
+.profile img{
+    height: 96vh;
+   
+}
+input[type=yourname]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+}
+input[type=yourphone]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+}
+input[type=youremail]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+}
+input[type=date]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+    color: white;
+}
+.app p{
+    color: #858585;
+}
+select[type=select]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+    color: white;
+}
+.top a{
+    margin-top: 40px;
+}
+.bottom p{
+    color: #858585;
+    line-height: 11px;
+}
+input[type=yourcard]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+}
+input[type=datecard]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+    color: white;
+}
+input[type=cvvcvc]{
+    background: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 339px;
+    height: 50px;
+    color: white;
+}
+section.date {
+    display: flex;
+    gap: 10px;
+}
+
+.date span {
+    color: white;
+    font-size: 25pt;
+}
+
+.date input {
+    width: 50px;
+}
+
+.bottom a{
+    margin-top: 32px;
+}
+/* .mostpopular{
+    display: flex;
+    width: 95%;
+    max-width: 2000px;
+    justify-content: space-between;
+} */
+/* .square{
+    background: #000;
+    width: 50px;
+    height: 50px;
+    animation: color 2s infinite ease-in-out;
+
+}
+
+@keyframes color {
+    from{
+        background: #000;
+    }
+     50% {
+         background: #D7BBB4;
+         width: 10px;
+         height: 10px;
+     }
+     to {
+         background: #000;
+         transform: rotate(300deg);
+     }
+} */
