@@ -176,6 +176,28 @@ a.contacts{
     display: flex;
     gap: 10px;
 }
+.texttwo a{
+    color: white;
+    border-radius: 2px;
+    background: #000;
+    border-color: white;
+    text-decoration: none;
+    border: 2px solid;
+    display: inline-block;
+    font-weight: 600;
+    padding: 1em 2em;
+    transition: 0.2s;
+}
+.delivery h4{
+    line-height: 1%;
+   
+}
+.texttwo p{
+color: #858585;
+}
+.text p{
+    color: #858585;
+}
 .popular-card{
     display: flex;
     flex-direction: column;
